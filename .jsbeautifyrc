@@ -1,0 +1,41 @@
+{
+  "brace_style": "collapse,preserve-inline",
+  "break_chained_methods": false,
+  "unindent_chained_methods": false,
+  "comma_first": false,
+  "editorconfig": true,
+  "end-with-newline": true,
+  "eol": "\n",
+  "eval_code": false,
+  "indent_char": " ",
+  "indent_size": 2,
+  "indent_with_tabs": false,
+  "indent_empty_lines": false,
+  "indent_level": 0,
+  "jslint_happy": false,
+  "keep_array_indentation": false,
+  "keep_function_indentation": false,
+  "operator_position": "before-newline",
+  "preserve_newlines": true,
+  "max_preserve_newlines": 2,
+  "space_after_anon_function": false,
+  "space_before_conditional": true,
+  "space_in_empty_paren": false,
+  "space_in_paren": true,
+  "unescape_strings": false,
+  "wrap_line_length": 0,
+  "css": {
+    "selector_separator_newline": true,
+    "newline_between_rules": true
+  },
+  "html": {
+    "indent_inner_html": false,
+    "indent_scripts": "normal",
+    "wrap_attributes": "preserve-aligned",
+    "wrap_attributes_indent_size": 2,
+    "unformatted": [],
+    "content_unformatted": [ "pre", "textarea" ],
+    "extra_liners": [ "head", "body", "/html" ],
+    "unformatted_content_delineter": [ "" ]
+  }
+}

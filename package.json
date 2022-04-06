@@ -1,0 +1,30 @@
+{
+  "name": "bulma-001",
+  "version": "0.0.1",
+  "description": "Bulma Framework Test",
+  "main": "app.js",
+  "scripts": {
+    "eslint": "eslint 'src/js'",
+    "stylelint": "stylelint 'src/sass'",
+    "start": "node app.js",
+    "start-debug": "DEBUG=bulma-001/* node app.js"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/register": "latest",
+    "browser-sync": "latest",
+    "bulma": "latest",
+    "eslint": "latest",
+    "express": "latest",
+    "gulp": "latest",
+    "gulp-babel": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "latest",
+    "sass": "latest",
+    "stylelint": "latest",
+    "stylelint-config-standard-scss": "latest",
+    "htmlhint": "latest",
+    "yargs": "latest"
+  }
+}
