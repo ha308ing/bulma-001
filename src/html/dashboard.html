@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="/js/main.js"></script>
+  <title>Dashboard</title>
+</head>
+<body>
+    <!-- <div class="hero is-primary is-fullheight">
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns is-centered">
+            <div class="column is-5-tablet is-4-desktop is-3-widescreen ">
+              <div class="box has-text-centered">Login Page</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <nav class="navbar has-shadow">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="https://via.placeholder.com/200x200" alt="">
+        </a>
+        <div class="navbar-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-start">
+          <div class="navbar-item"><small>Publishing at the speed of technology</small></div>
+        </div>
+        <div class="navbar-end">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <div class="navbar-link">Alex Johnson</div>
+            <div class="navbar-dropdown">
+              <a href="#" class="navbar-item">
+                <div>
+                  <span class="icon is-small">
+                    <i class="fa fa-user fa-user-circle-o"></i>
+                  </span>
+                  Profile
+                </div>
+              </a>
+              <a href="#" class="navbar-item">
+                <div>
+                  <span class="icon is-small">
+                    <i class="fa fa-sign-out"></i>
+                  </span>
+                  Sign Out
+                </div>
+              </a>
+              <button class="navbar-item button is-fullwidth px-3 py-2 mt-3 is-warning open-modal-button" data-target="report-a-bug">
+                  <span class="icon is-small">
+                    <i class="fa fa-bug"></i>
+                  </span>
+                  <span>Report bug</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="columns">
+        <div class="column is-4-tablet is-3-desktop is-2-widescreen">
+          <nav class="menu">
+            <p class="menu-label">Menu</p>
+            <ul class="menu-list">
+              <li>
+                <a href="dashboard.html" class="is-active">
+                  <span class="icon">
+                    <i class="fa fa-tachometer"></i>
+                  </span>
+                  Dashboard
+                </a>
+              </li>
+              <li>
+                <a href="books.html">
+                  <span class="icon">
+                    <i class="fa fa-book"></i>
+                  </span>
+                  Books
+                </a>
+              </li>
+              <li>
+                <a href="customers.html">
+                  <span class="icon">
+                    <i class="fa fa-address-book"></i>
+                  </span>
+                  Customers
+                </a>
+              </li>
+              <li>
+                <a href="orders.html">
+                  <span class="icon">
+                    <i class="fa fa-file-text-o"></i>
+                  </span>
+                  Orders
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="column">
+          <div class="level">
+            <div class="level-left">
+              <h1 class="subtitle is-3"><span class="has-text-grey-light">Hello</span> <strong>Alex Johnson</strong></h1>
+            </div>
+            <div class="level-right">
+              <div class="select">
+                <select name="" id="">
+                  <option value="">Today</option>
+                  <option value="">Yesterday</option>
+                  <option value="">This Week</option>
+                  <option value="" selected>This Month</option>
+                  <option value="">This Year</option>
+                  <option value="">All time</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="columns is-multiline">
+            <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+              <div class="notification is-link has-text">
+                <p class="title is-1">232</p>
+                <p class="subtitle is-4">Orders</p>
+              </div>
+            </div>
+            <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+              <div class="notification is-info has-text">
+                <p class="title is-1">$7,648</p>
+                <p class="subtitle is-4">Revenue</p>
+              </div>
+            </div>
+            <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+              <div class="notification is-primary has-text">
+                <p class="title is-1">1,676</p>
+                <p class="subtitle is-4">Visitors</p>
+              </div>
+            </div>
+            <div class="column is-12-tablet is-6-desktop is-3-widescreen">
+              <div class="notification is-success has-text">
+                <p class="title is-1">20,756</p>
+                <p class="subtitle is-4">Pageviews</p>
+              </div>
+            </div>
+            <div class="column is-12-tablet is-6-desktop is-4-fullhd">
+              <div class="card">
+                <div class="card-content">
+                  <h2 class="title is-4">Latest orders</h2>
+                  <div class="level">
+                    <div class="level-left">
+                      <div>
+                        <p class="title is-5 is-marginless">
+                          <a href="edit-order.html">787352</a>
+                        </p>
+                        <small>Nov 18, 17:38 by <a href="edit-customer.html">John Miller</a>
+                        </small>
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="has-text-right">
+                        <p class="title is-5 is-marginless">$56.98</p>
+                        <span class="tag is-warning">In progress</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="level">
+                    <div class="level-left">
+                      <div>
+                        <p class="title is-5 is-marginless">
+                          <a href="edit-order.html">787352</a>
+                        </p>
+                        <small>Nov 18, 17:38 by <a href="edit-customer.html">John Miller</a>
+                        </small>
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="has-text-right">
+                        <p class="title is-5 is-marginless">$56.98</p>
+                        <span class="tag is-warning">In progress</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="level">
+                    <div class="level-left">
+                      <div>
+                        <p class="title is-5 is-marginless">
+                          <a href="edit-order.html">787352</a>
+                        </p>
+                        <small>Nov 18, 17:38 by <a href="edit-customer.html">John Miller</a>
+                        </small>
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="has-text-right">
+                        <p class="title is-5 is-marginless">$56.98</p>
+                        <span class="tag is-warning">In progress</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="level">
+                    <div class="level-left">
+                      <div>
+                        <p class="title is-5 is-marginless">
+                          <a href="edit-order.html">787352</a>
+                        </p>
+                        <small>Nov 18, 17:38 by <a href="edit-customer.html">John Miller</a>
+                        </small>
+                      </div>
+                    </div>
+                    <div class="level-right">
+                      <div class="has-text-right">
+                        <p class="title is-5 is-marginless">$56.98</p>
+                        <span class="tag is-warning">In progress</span>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="orders.html" class="button is-link is-outlined">View all orders</a>
+                </div>
+              </div>
+            </div>
+            <div class="column is-12-tablet is-6-desktop is-4-fullhd">
+              <div class="card">
+                <div class="card-content">
+                  <h2 class="title is-4">Most popular books</h2>
+                  <div class="media">
+                    <div class="media-left is-marginless">
+                      <p class="number">1</p>
+                    </div>
+                    <div class="media-left"><img src="http://via.placeholder.com/400x550" alt="" width="40"></div>
+                    <div class="media-content">
+                      <p class="title is-5 is-spaced is-marginless"><a href="edit-book.html">Learning Swift</a></p>
+                    </div>
+                    <div class="media-right">146 sold</div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left is-marginless">
+                      <p class="number">2</p>
+                    </div>
+                    <div class="media-left"><img src="http://via.placeholder.com/400x550" alt="" width="40"></div>
+                    <div class="media-content">
+                      <p class="title is-5 is-spaced is-marginless"><a href="edit-book.html">TensorFlow For Machine Intelligence</a></p>
+                    </div>
+                    <div class="media-right">56 sold</div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left is-marginless">
+                      <p class="number">3</p>
+                    </div>
+                    <div class="media-left"><img src="http://via.placeholder.com/400x550" alt="" width="40"></div>
+                    <div class="media-content">
+                      <p class="title is-5 is-spaced is-marginless"><a href="edit-book.html">Choosing a JavaScript Framework</a></p>
+                    </div>
+                    <div class="media-right">47 sold</div>
+                  </div>
+                  <a href="books.html" class="button is-link is-outlined">View all books</a>
+                </div>
+              </div>
+            </div>
+            <div class="column is-12-tablet is-6-desktop is-4-fullhd">
+              <div class="card">
+                <div class="card-content">
+                  <h2 class="title is-4">Most loyal customers</h2>
+                  <div class="media">
+                    <div class="media-left is-marginless">
+                      <p class="number">1</p>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5 is-spaced is-marginless"><a href="edit-customer.html">John Miller</a></p>
+                      <p class="subtitle is-6">United States</p>
+                    </div>
+                    <div class="media-right">7 orders</div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left is-marginless">
+                      <p class="number">1</p>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5 is-spaced is-marginless"><a href="edit-customer.html">Samantha Rogers</a></p>
+                      <p class="subtitle is-6">United Kingdom</p>
+                    </div>
+                    <div class="media-right">5 orders</div>
+                  </div>
+                  <div class="media">
+                    <div class="media-left is-marginless">
+                      <p class="number">1</p>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5 is-spaced is-marginless"><a href="edit-customer.html">Paul Jacques</a></p>
+                      <p class="subtitle is-6">Canada</p>
+                    </div>
+                    <div class="media-right">2 orders</div>
+                  </div>
+                  <a href="customers.html" class="button is-link is-outlined">View all customers</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+    <div class="modal" id="report-a-bug">
+      <div class="modal-bakcground"></div>
+      <div class="modal-card">
+        <header class="modal-card-head">
+          <p class="modal-card-title">Report a Bug</p>
+          <button class="delete close-modal-button" aria-label="close"></button>
+        </header>
+        <section class="modal-card-body">
+          <div class="notification is-success is-hidden modal-success-notification">
+            <span class="fa fa-bug"></span>
+            Thank You. Your bug has been reported
+          </div>
+          <textarea class="textarea" placholder="Let us know what problems you faced."></textarea>
+        </section>
+        <footer class="modal-card-foot">
+          <button class="button is-success send-bug-report">Send</button>
+          <button class="button close-modal-button">Cancel</button>
+        </footer>
+      </div>
+    </div>
+
+    <!-- <div class="notification is-success is-hidden modal-success-notification">
+      <button class="delete close-notification"></button>
+      <span class="fa fa-bug"></span>
+      Thanks. Your bug has benn reported.
+    </div> -->
+
+</body>
+</html>
